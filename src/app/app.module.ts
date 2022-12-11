@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { SharedMaterialModule } from './shared/shared-material/shared-material.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SharedMaterialModule } from './shared/shared-material/shared-material.m
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     SharedMaterialModule
   ],
   providers: [],
